@@ -1,0 +1,88 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="CKID SAT" verbose="1" preserve-order="true" parallel="tests" thread-count="2">
+
+	<listeners>
+		<listener class-name="com.test.automation.Listener.Listener"></listener>
+	</listeners>
+
+	<test name="EXT TESTS1" preserve-order="true" parallel="false">
+		<classes>
+			<class name="com.test.automation.ProfileMenu.TC7_AddNewCard" />
+		</classes>
+	</test>
+	<test name="EXT TESTS2" preserve-order="true" parallel="false">
+		<classes>
+			<class name="com.test.automation.ProfileMenu.TC8_TermsAndConditions" />
+		</classes>
+	</test>
+	<test name="EXT TESTS3" preserve-order="true" parallel="false">
+		<classes>
+
+			<class name="com.test.automation.ExtraDashboard.TC9_PointsModule" />
+		</classes>
+	</test>
+	<test name="EXT TESTS4" preserve-order="true" parallel="false">
+		<classes>
+
+			<class name="com.test.automation.ExtraDashboard.TC10_RollingModels" />
+		</classes>
+	</test>
+	<test name="EXT TESTS5" preserve-order="true" parallel="false">
+		<classes>
+
+			<class name="com.test.automation.ExtraDashboard.TC11_Awards" />
+		</classes>
+	</test>
+	<test name="EXT TESTS6" preserve-order="true" parallel="false">
+		<classes>
+
+			<class name="com.test.automation.ExtraDashboard.TC12_FuelHistory" />
+		</classes>
+	</test>
+	<test name="EXT TESTS7" preserve-order="true" parallel="false">
+		<classes>
+
+			<class
+				name="com.test.automation.ExtraDashboard.TC13_AllTransactionsHistory" />
+		</classes>
+	</test>
+	<test name="EXT TESTS8" preserve-order="true" parallel="false">
+		<classes>
+
+			<class
+				name="com.test.automation.ProfileMenu.TC14_MyTransactionsThroughProfile" />
+		</classes>
+	</test>
+	<test name="EXT TESTS9" preserve-order="true" parallel="false">
+		<classes>
+
+			<class name="com.test.automation.ProfileMenu.TC15_PointsThroughProfile" />
+		</classes>
+	</test>
+	<test name="EXT TESTS10" preserve-order="true" parallel="false">
+		<classes>
+			<class name="com.test.automation.ExtraDashboard.TC17_CustomerServiceAccessibility" />
+		</classes>
+	</test>
+	<test name="EXT TESTS11" preserve-order="true" parallel="false">
+		<classes>
+			<class name="com.test.automation.ProfileMenu.TC20_CommunicationPreferences" />
+		</classes>
+	</test>
+	<test name="EXT TESTS12" preserve-order="true" parallel="false">
+		<classes>
+			<class name="com.test.automation.ExtraDashboard.TC18_BannersAndVouchers" />
+		</classes>
+	</test>
+
+
+
+
+
+
+
+
+
+
+</suite>

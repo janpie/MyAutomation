@@ -1,0 +1,115 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="CKID SAT" verbose="1" preserve-order="true" parallel="tests"
+	thread-count="2">
+
+	<listeners>
+		<listener class-name="com.test.automation.Listener.Listener"></listener>
+	</listeners>
+
+
+
+	<test name="CKID TESTS2" preserve-order="true" parallel="classes">
+		<classes>
+
+			<class name="com.test.automation.LoginPage.TC2_InvalidCredentials" />
+
+		</classes>
+	</test>
+
+	<test name="CKID TESTS6" preserve-order="true" parallel="classes">
+		<classes>
+
+			<class name="com.test.automation.UpdateAccount.TC6_ChangeUserData" />
+
+		</classes>
+	</test>
+
+	<test name="CKID TESTS8" preserve-order="true" parallel="classes">
+		<classes>
+
+			<class name="com.test.automation.UpdateAccount.TC19_SetRegisteredMail" />
+
+		</classes>
+	</test>
+
+	<test name="CKID TESTS3" preserve-order="true" parallel="classes">
+		<classes>
+
+			<class name="com.test.automation.LoginPage.TC3_CreateAccountNorway" />
+
+		</classes>
+	</test>
+	
+	<test name="CKID TESTS3,5" preserve-order="true" parallel="classes">
+		<classes>
+
+			<class name="com.test.automation.LoginPage.TC3_CreateAccountLithuania" />
+
+		</classes>
+	</test>
+	
+	<test name="CKID TESTS3,6" preserve-order="true" parallel="classes">
+		<classes>
+
+			<class name="com.test.automation.LoginPage.TC3_CreateAccountLatvia" />
+
+		</classes>
+	</test>
+	
+	<test name="CKID TESTS3,7" preserve-order="true" parallel="classes">
+		<classes>
+
+			<class name="com.test.automation.LoginPage.TC3_CreateAccountEstonia" />
+
+		</classes>
+	</test>
+	
+	<test name="CKID TESTS3,8" preserve-order="true" parallel="classes">
+		<classes>
+
+			<class name="com.test.automation.LoginPage.TC3_CreateAccountPoland" />
+
+		</classes>
+	</test>
+
+	<test name="CKID TESTS4" preserve-order="true" parallel="classes">
+		<classes>
+
+			<class name="com.test.automation.LoginPage.TC4_CreateAccountSweden" />
+
+		</classes>
+	</test>
+
+	<test name="CKID TESTS5" preserve-order="true" parallel="classes">
+		<classes>
+
+			<class name="com.test.automation.LoginPage.TC5_CreateAccountDenmark" />
+
+		</classes>
+	</test>
+
+
+
+
+	<test name="CKID TESTS7" preserve-order="true" parallel="classes">
+		<classes>
+
+			<class
+				name="com.test.automation.UpdateAccount.TC18_SetRegisteredPhoneNumber" />
+
+		</classes>
+	</test>
+
+
+	<test name="CKID TESTS9" preserve-order="true" parallel="classes">
+		<classes>
+
+			<class name="com.test.automation.UpdateAccount.TC21_ChangeEmail" />
+
+		</classes>
+	</test>
+
+
+
+</suite>
